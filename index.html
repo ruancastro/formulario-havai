@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Hawaii vibes tourism</title>
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+
+    <body>
+        <header>
+        
+            <div class="boxHeader">
+               
+                <h1>Quer conhecer as oito principais ilhas do Havaí?</h1>
+                <h2>Compre um passeio para uma das ilhas e concorra</h2>
+                <h3>por tempo limitado!</h3>
+            </div>
+
+        </header>
+
+        <main>
+            <form>
+                <div class="boxForm">
+                    <label for="nomeCompleto">Nome e sobrenome</label>
+                    <input type="text" id="nomeCompleto" required placeholder="Seu nome">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="seuemail@dominio.com" required>
+                    
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" placeholder="(XX) X XXXX-XXXX">
+
+                    <fieldset>
+                        <legend>Para qual ilha você deseja comprar um pacote?</legend>
+                        <select>  
+                            <option>Maui</option>
+                            <option>Oahu</option>
+                            <option>Kauai</option>
+                            <option>Molokai</option>
+                            <option>Lanai</option>
+                            <option>Niihau</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Como prefere o nosso contato?</legend>
+                        <label class="label-radio" for="radio-email"><input type="radio" name="contato"  value="email" id="radio-email">Email</label>
+                        <label  class="label-radio" for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                    </fieldset>
+
+                    <label><input type="checkbox" checked class="checkbox-input"> Gostaria de receber nossas novidades por email?</label>
+                    
+                    <input type="submit" value="Enviar formulário" class="botaoEnviar">
+                </div>
+            </form>
+
+        </main>
+        
+      
+        <!-- <img  id="background" src="C:\Users\Ruan\OneDrive\Área de Trabalho\Estudos\Programação\Treinando tecnologias\HTML e CSS\Formulário de pesquisa\imagens\festa-junina-beckground.webp"> -->
+  
+
+        
+
+    </body>
+
+</html>
