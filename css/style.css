@@ -1,0 +1,120 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000 ; 
+    background-image: url('../imagens/background.jpg');
+  
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+header{
+   
+    padding: 20px 0;
+    width: 100%;
+}
+
+.imgHeader{
+     width: 100%;
+ 
+}
+
+
+
+.boxHeader{
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.boxHeader h1{
+    font-weight: bold;
+    font-size: 28px;
+    margin: 10px;
+    color: #FFFFFF;
+}
+
+.boxHeader h2,h3{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px;
+    color: #FFFFFF
+}
+
+
+main{
+   
+    width: 940px;
+    margin: 0 auto;
+}
+
+.boxForm{
+    text-align: center;
+   
+
+}
+form {
+    
+    padding: 2.5rem;
+    margin: 20px 40px 40px 40px;
+    
+    border: #FFFFFF solid;
+    border-radius: 8px;
+    color: #FFFFFF
+}
+
+form label, form legend {
+    display:block;
+    font-size: 20px;
+    margin: 8px 0 10px 4px;
+    padding-top: 8px;
+}
+
+.label-radio{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+form select, form input{
+    width: 40%;
+    text-align: center;
+}
+
+#radio-email, #radio-telefone{
+    display:inline;
+    margin: 0 4px 0 0;
+}
+
+
+
+form fieldset input{
+    display:block;
+    width: auto;
+    margin: 10px;
+    
+}
+
+.checkbox-input{
+  width: 20px;
+   
+}
+
+.botaoEnviar{
+    width: 20%;
+    padding: 15px 0;
+    background-color: #8E6F61;
+    color:white;
+    font-weight: bold;
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 8px;
+}
+
+.botaoEnviar:hover{
+    background-color: #449B9F;
+    transform:scale(1.2);
+}
