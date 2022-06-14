@@ -176,5 +176,10 @@ form fieldset input{
     height: 2em;
 }
 
+.checkbox-input{
+    width: 20px;
+    height: 30px;
+  }
+
    
 }
