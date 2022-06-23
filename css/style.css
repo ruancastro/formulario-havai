@@ -43,6 +43,10 @@ header{
     color: #FFFFFF
 }
 
+.boxHeader h2::after{
+    content: ".";
+}
+
 
 main{
    
@@ -131,21 +135,32 @@ form fieldset input{
     .boxHeader h1 {
         font-size: 70px ;
         margin-bottom: 35px;
+        /* margin-top: -40px; */
     }
 
     .boxHeader h2 {
         font-size: 40px ;
+        
+        
 
+    }
+ 
+    .boxHeader h2:after {
+        content: '. Por tempo limitado!';
+        
     }
 
     .boxHeader h3 {
+        display: none;
         margin-top: 20px;
         font-size: 35px ;
+        font-weight: bold;
     }
 
 
     form{
-        margin-top: 40px;
+        margin: 60px 40px 40px 40px;
+        
     }
    form label, form  legend{
        font-size: 35px;
